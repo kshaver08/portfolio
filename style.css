@@ -3,48 +3,53 @@ color scheme: ;
 */
 
 /* basic elements */
-html {
-	font-size: 100%;
-	font-family: Trebuchet MS;
-}
 body {
+	font-family: Trebuchet MS;
+	font-size: 100%;
 	background-image: url("./images/bg3.png");
 	background-repeat: no-repeat;
 	background-attachment: fixed;
 	background-size: cover;
+	max-width: 70%;
+	margin: auto;
+}
+header {
+	text-align: center;
+	background: grey;
+	opacity: 75%;
+	color: white;
+	border-radius: .5em;
+}
+main {
+	background-color: white;
+	border-radius: .5em;
+	margin: 1em 0 0 0;
+	padding: 1em;
+	opacity: 75%;
+	text-align: center;
 }
 
 /* nav bar */
 nav {
-	margin: 10rem auto;
-	text-align: center;
-	position: relative;
-}
-nav ul {
-	list-style-type: none;
-	margin: 0;
-	padding: 0;
-}
-nav li {
-	display: inline;
-	float: left;
+	overflow: hidden;
+	background-color: black;
 }
 nav a {
+	float: left;
 	display: block;
-	padding: .75rem;
-	background-color: white;
+	color: white;
+	text-align: center;
+	padding: 1em;
 	text-decoration: none;
 }
 nav a:hover {
-	background-color: black;
+	background-color: grey;
+	color: black;
 }
+
+
 
 /* specific elements */
-.info-column {
-	margin: 3rem auto;
-	padding: 1rem;
-	border: 1px solid white;
-	text-align: center;
-	position: fixed;
+header h1 {
+	padding: 1.5em;
 }
-
